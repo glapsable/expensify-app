@@ -1,0 +1,16 @@
+{
+    "extends": "airbnb",
+    "parserOptions": {
+        "exmaVersion": 6
+    },
+    "env": {
+        "node": true,
+        "browser": true,
+        "es6": true
+    },
+    "rules": {
+        "linebreak-style": 0,
+        "react/jsx-filename-extension": 0,
+        "react/jsx-one-expression-per-line": 0
+    }
+}
