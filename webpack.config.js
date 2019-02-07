@@ -17,11 +17,12 @@ module.exports = {
         'style-loader',
         'css-loader',
         'sass-loader',
-      ]
+      ],
     }],
   },
   devtool: 'cheap-module-eval-source-map',
   devServer: {
     contentBase: path.join(__dirname, 'public'),
-  }
+    historyApiFallback: true,
+  },
 };
